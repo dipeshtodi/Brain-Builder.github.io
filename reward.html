@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reward System</title>
+    <style>
+      .reward {
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .reward h2 {
+        margin-top: 0;
+      }
+
+      .reward button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+
+      .reward button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reward">
+      <h2>Reward System</h2>
+      <p>You have earned <span id="points">0</span> points!</p>
+      <button onclick="addPoints(10)">Earn 10 points</button>
+    </div>
+
+    <script>
+      var points = 0;
+      var pointsElement = document.getElementById("points");
+
+      function addPoints(amount) {
+        points += amount;
+        pointsElement.innerText = points;
+
+        if (points >= 100) {
+          alert("Congratulations! You have earned a certificate!");
+          points = 0;
+          pointsElement.innerText = points;
+        }
+      }
+    </script>
+  </body>
+</html>

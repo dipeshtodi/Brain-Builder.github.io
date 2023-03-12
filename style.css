@@ -1,0 +1,105 @@
+#title{
+    background-color: #2573e1;
+    color: white;
+}
+h1{
+    font-family: "montserrat-black";
+    font-size: 3rem;
+    line-height:1.5;
+}
+container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: "montserrat";
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+    border-radius: 90%;
+}
+.download-button{
+    margin: 5% 3% 5% 0 ;
+}
+.title-image{
+    width: 60%;
+}
+
+#features{
+    padding: 7% 15% ;
+}
+.feature-box{
+    text-align: center;
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-size:1.5rem;
+}
+p{
+
+}
+.row{
+    text-align: center;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#000000 ;
+    color: #fff;
+}
+h2{
+    font-family:"montserrat-bold" ;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.btn{
+    background-color: black ;
+    padding:6px;
+    border:none;
+    cursor:pointer;
+    font-size:20px;
+    border-radius:11px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(30, 193, 27, 0.825);
+    
+    }
+    footer {
+        background-color: black;
+        padding: 20px 0;
+      }
+      
+      .social-icons li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      .social-icons li:last-child {
+        margin-right: 0;
+      }
+      
+      .social-icons a {
+        color: white;
+        font-size: 24px;
+      }
+      
+      .social-icons a:hover {
+        color: #FFD700; /* Change color to desired glow effect */
+      }
+      

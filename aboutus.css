@@ -1,0 +1,13 @@
+.banner {
+    background-color: #58b0dc;
+    text-align: center;
+    padding:0px;
+}
+.body{
+    background-color :#58b0dc;
+}
+p{
+    font:italic;
+    font-size:18px ;
+    font-family: 'Times New Roman', Times, serif;
+}
